@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="heading">
+      <p id="main-heading">Fitness Tracker</p>
+      <p id="images">
+        <a href="https://github.com/IshanTheDeveloper" target="_blank">
+          <img src="github.png" alt="" id="img1" />
+        </a>
+        <a href="www.linkedin.com/in/ishan-jaiswal-6146202b6" target="_blank">
+          <img src="linkedln.png" alt="" id="img2" />
+        </a>
+      </p>
+    </div>
+    <div class="modes">
+      <button id="button1">Dark</button>
+    </div>
+    <div class="mainArea">
+      <div class="container-area">
+        <div class="container">
+          <div class="heading1">Add a Workout</div>
+          <div class="heading2">Workout Type:</div>
+          <div class="input-area1">
+            <input
+              type="text"
+              placeholder="Enter the type of workout..."
+              id="input1"
+            />
+          </div>
+          <div class="heading2">Duration (minutes):</div>
+          <div class="input-area2">
+            <input
+              type="number"
+              min="1"
+              max="60"
+              placeholder="Enter the duration..."
+              id="input2"
+            />
+          </div>
+          <div class="submission">
+            <button id="button2">Add</button>
+          </div>
+          <div class="heading1">Workout Log</div>
+          <div class="output"></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
